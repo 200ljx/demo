@@ -1,0 +1,132 @@
+﻿.commentbox {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+    .commentbox .box {
+        border: 1px solid #C5DAED;
+        border-top-color: #5794BF;
+        margin-bottom: 5px;
+    }
+
+    .commentbox .box:after{
+        content: "."; 
+        display: block;
+        height: 0; 
+        clear: both; 
+        visibility: hidden;
+    }
+
+    .commentbox textarea {
+        width: 98%;
+        padding: 1%;
+        height: 88px;
+        resize: none;
+        outline: none;
+        border: none;
+        float: left;
+    }
+
+    .commentbox em {
+        color: #B233FE;
+        font-style: normal;
+    }
+
+    .commentbox .chars {
+        float: left;
+    }
+
+    .commentbox .btn, .commentbox .face, .commentbox .pic {
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+
+    .commentbox .btn {
+        margin-left: 20px;
+    }
+
+    .commentbox .face img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .commentbox .pic img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .commentbox .face a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url(images/icons.png) no-repeat -78px top;
+    }
+
+    .commentbox .face div.emotion_panel {
+        display: none;
+        width: 310px;
+        height: 200px;
+        background: #FFF;
+        border: 1px solid #808080;
+        overflow-y: scroll;
+        position: absolute;
+        right: 0;
+        bottom: -205px;
+        z-index:99999999;
+        padding:5px;
+    }
+    .commentbox .face div.emotion_panel_p{bottom:35px;}
+
+        .commentbox .face div.emotion_panel span {
+            float:left;
+            padding:2px;
+        }
+
+            .commentbox .face div.emotion_panel span:hover {
+                padding:1px;
+                border:1px solid gray;
+            }
+
+        .commentbox .face div.emotion_panel img {
+            width: 25px;
+            height: 25px;
+        }
+
+    .commentbox .pic {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url(images/icons.png) no-repeat -43px top;
+    }
+
+    .commentbox .btnpublish {
+        cursor: pointer;
+        width: auto;
+        height: 23px;
+        border: none;
+        background: url(images/bg_submit1.png) repeat-x;
+        color: #FFF;
+        padding-left:15px;
+        padding-right:15px;
+        text-align:center;
+    }
+
+    .commentbox .face a:hover {
+        background: url(images/icons.png) no-repeat -78px -62px;
+    }
+
+    .commentbox .pic:hover {
+        background: url(images/icons.png) no-repeat -43px -62px;
+    }
+
+    .commentbox .btnpublish:hover {
+        background: url(images/bg_submit2.png) repeat-x;
+    }
+
+    .commentbox .btnpublish:disabled {
+        background: url(images/bg_submit3.png) repeat-x;
+        cursor:not-allowed;
+    }
