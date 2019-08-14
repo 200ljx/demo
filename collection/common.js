@@ -1,5 +1,5 @@
 ﻿/*
- * add by 李俊贤
+ * add by ljx
  * 扩展jquery
  * jquery版本 1.10及以上
  */
